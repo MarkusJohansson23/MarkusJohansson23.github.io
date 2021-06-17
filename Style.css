@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    color: purple;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Georgia, 'Times New Roman', Times, serif;
+  }
+  body{
+    font-family: "Roboto";
+    background-color:rgb(235, 235, 235);
+    margin: 0;
+  }
+  h2{
+    padding-left: 7px;
+  }
+  .logo {
+    width: 200px;
+    border: 2px solid purple;
+    border-radius: 75px;
+  }
+  .main-page {
+    flex: 60%;
+    background-color:rgb(255, 255, 255);
+    border-left: 2px solid purple;
+    border-right: 2px solid purple;
+  }
+  .left-panel {
+    position: relative;
+    background-color:rgb(185, 185, 185);
+    text-align: center;
+    flex: 20%;
+    padding: 10px;
+  }
+  .right-panel {
+    background-color: rgb(185, 185, 185);
+    text-align: left;
+    flex: 20%;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header {
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+  }
+  .footer {
+    padding: 3px;
+    text-align: center;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+  }
+  .product-img{
+    width: 400px;
+    border: solid purple;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .sidebar-img{
+    width: 150px;
+    border: solid purple;
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+  }
+  .article-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ,Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 7px;
+  }
+  .sidebar-head{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .sidebar-text{
+    clear: both;
+    text-align: right;
+  }
+  .tableSize{
+    font-size: 14px;
+  }
+  .panel-links{
+    border: 2px solid black;
+    background-color: purple;
+    display: inline-block;
+    margin: 20px 40px 0px 61px;
+  }
+  @media screen and (max-width: 725px) {
+    .row {
+      flex-direction: column;
+    }
+  }
